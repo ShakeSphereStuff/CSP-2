@@ -40,7 +40,9 @@ categories: [C1.4]
         }
         document.getElementById("xMax").remove();
         document.getElementById("yMax").remove();
-        document.getElementById("generator").remove();      
+        document.getElementById("generator").remove();
+        var text = document.createTextNode(String("Width is " + xMax + "; Height is " + yMax + ";"))   
+        document.getElementById("Grid").appendChild(text);
         cellCt = 0;
     };      
     function screen(row, col){
