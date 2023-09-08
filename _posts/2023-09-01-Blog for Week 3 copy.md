@@ -17,4 +17,4 @@ Wendsday:
 Thursday:
     > Spent way to much time on getting a custom table to work, the one bug of tables adding together, solution, to delete the user input.
 Friday:
-    > Today, I don't have that filled out. 
+    > Today, changed my Website slightly to Where's Waldo, where you find the character X, I also presented and got a 1.9.

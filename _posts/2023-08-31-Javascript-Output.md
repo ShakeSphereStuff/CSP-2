@@ -2,8 +2,8 @@
 toc: true
 comments: true
 layout: post
-title: JavaScript Output
-description: Suppost to be for a table
+title: Where's Waldo w/ Basic Python.
+description: Where's Waldo, find the charcter X, through this customizeable mess
 courses: { csse: {week: 1}, csp: {week: 1, categories: [4.A]}, csa: {week: 0} }
 categories: [C1.4]
 ---
@@ -56,7 +56,8 @@ categories: [C1.4]
             grid.appendChild(cell)
         }
         console.log("Got Called");
-        var state = "-";
+        var list = ["-", "%", "#", "$", "&", "*", "@", "`", "?"]
+        var state = list[Math.floor((list.length) * Math.random())];
         if(row == xRandom && col == yRandom){
             console.log(xMax - 1)
             console.log(yMax - 1)
