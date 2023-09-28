@@ -29,4 +29,4 @@ This is running a for loop for what was suppost to be a loading simulation, now,
     }
     document.getElementById("Load").innerHTML = loadingScreen
     console.log("Ends with", loadingScreen)
-</script>
+</script> 

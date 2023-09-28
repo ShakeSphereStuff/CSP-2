@@ -14,4 +14,4 @@ Summary Ticket:
 </p>
 <p>
     Place to add other people's scores who I'm grading
-</p>
+</p> 

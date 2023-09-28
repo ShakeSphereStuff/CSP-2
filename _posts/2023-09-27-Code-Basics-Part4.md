@@ -55,7 +55,7 @@ categories: [C1.4]
         cell.innerHTML = contentIKnow[x]
         iKnow.appendChild(cell)
     }
-</script>
+</script> 
 
 What I've learned:
 - 1  Uses raw HTML, can be used to customize it to what I want

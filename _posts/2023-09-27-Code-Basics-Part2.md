@@ -14,4 +14,4 @@ categories: [C1.4]
 <script>
     var theText = document.getElementById("Testing")
     theText.innerHTML = "Hello World, how you doing?"
-</script>
+</script> 
