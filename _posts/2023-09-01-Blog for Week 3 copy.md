@@ -2,12 +2,13 @@
 toc: true
 comments: true
 layout: post
-title: Notebook Journal Week 3
-description: This is what happend for week 3 of CSP for me 
-type: plans
-courses: { csse: {week: 1}, csp: {week: 1, categories: [4.A]}, csa: {week: 0} }
-categories: [C1.4]
+title: APCSP JS Hacks 3
+description: Part 3 of the 5 Hacks that we have to learn
+courses: { csse: {week: 0}, csp: {week: 0}, csa: {week: 0} }
+categories: [C4.3, C5.0]
+type: devops
 ---
+
 Monday:
     > Absolutly freaking about tables, not knowing how to fill them out, hoping that it will work
 Tuesday:

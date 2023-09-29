@@ -52,13 +52,13 @@ categories: [C1.4]
         answer = currentStr[currentStr.length - 1]
         return 2
     }
-    function strAnswer(addOn){
+    function strAnswer(addOn, ending){
         var text = questions[3]
         console.log("Text is " + questions)
         var newLine = document.createElement("br")
         var prompt = document.createElement("p")
         var grid = document.getElementById("grid") 
-        prompt.innerHTML = addOn + String(answer) + "<br>" + "You got it in " + (document.querySelectorAll("input").length - 1) + " attempts"
+        prompt.innerHTML = addOn + String(answer) + "<br>" + ending
         grid.appendChild(prompt);
         prompt.appendChild(newLine);
     }
@@ -78,11 +78,11 @@ categories: [C1.4]
             if(numOfInputs != 1 && currentStr.toLowerCase() == answer.trim().toLowerCase()){
                 console.log("Correct Answer")
                 numOfInputs = 69
-                strAnswer("You're correct it's ")
+                strAnswer("You're correct it's ", "You got it in " + (document.querySelectorAll("input").length - 1) + " attempts")
                 return null
             }
             if(parseInt(numOfInputs) == 1){
-                if(stripData.length != 4){
+                if(stripData.length < 3){
                     return null
                 }
                 var numData = processData(stripData)
@@ -91,10 +91,11 @@ categories: [C1.4]
             else if(numOfInputs < numOfQuests){
                 console.log("It passed through here")
                 questions.push("Answer the Questions")
-                newData(numOfInputs + 1)
+                newData(numOfInputs)
+                // newData(numOfInputs)
             }
             else{
-                strAnswer("It's ")
+                strAnswer("It's ", "")
             }
         }
     }
