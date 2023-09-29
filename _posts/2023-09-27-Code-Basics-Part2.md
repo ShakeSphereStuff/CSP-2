@@ -9,7 +9,7 @@ courses: { csse: {week: 1}, csp: {week: 5, categories: [4.A]}, csa: {week: 0} }
 categories: [C1.4]
 ---
 
-<div style = "background-color:blue">
+<div style = "background-color:blue"> 
     <b id = "Testing" style = "color:green; "><br><br>Hello World<br><br></b>
 </div>
 <script>

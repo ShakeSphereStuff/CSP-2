@@ -57,7 +57,7 @@ categories: [C1.4]
     for(x = 0; x <contentIKnow.length; x++){
         var cell = document.createElement("td")
         cell.innerHTML = contentIKnow[x]
-        iKnow.appendChild(cell)
+        iKnow.appendChild(cell) 
     }
 </script> 
 

@@ -8,7 +8,7 @@ description: Part 1 of the 5 things we had to learn for APCSP
 courses: { csse: {week: 1}, csp: {week: 5, categories: [4.A]}, csa: {week: 0} }
 categories: [C1.4]
 ---
-
+ 
 <style>
 div {text-align: center;}
 </style>

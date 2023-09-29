@@ -15,7 +15,7 @@ This is running a for loop for what was suppost to be a loading simulation, now,
 <p id="Load">Loading</p>
 <script>
     var loadingScreen = document.getElementById("Load").innerHTML;
-    var time = new Date();
+    var time = new Date(); 
     var wait = time.getTime();
     for(x = 0; x < 10; x++){
         if(wait + 1000000 > new Date().getTime()){
