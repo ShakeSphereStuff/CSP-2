@@ -2,6 +2,7 @@
 toc: true
 comments: true
 layout: post
+type: hacks
 title: APCSP JS Hacks 4
 description: Part 4 of the 5 things we had to learn for APCSP 
 courses: { csse: {week: 1}, csp: {week: 5, categories: [4.A]}, csa: {week: 0} }
@@ -25,17 +26,20 @@ categories: [C1.4]
     var theContent = [
         "Code presented in JS",
         "thead",
-        "object.this"
+        "object.this",
+        "Definitions"
     ]
     var contentIKnow = [
         "What I know of Code",
         "Know that it represents the table head",
-        "I know it represents the something about the object"
+        "I know it represents the something about the object",
+        "They give meaning to a certin term"
     ]
     var contentToLearn = [
         "Questions abount Code",
         "When should I use this?",
-        "Confirm: Is used for returning Data abt the object"
+        "Confirm: Is used for returning Data abt the object",
+        "Learn what in means in APCSP"
     ]
     console.log(theContent)
     for(x = 0; x <theContent.length; x++){
