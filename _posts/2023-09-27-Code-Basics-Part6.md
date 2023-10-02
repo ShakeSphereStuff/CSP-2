@@ -3,8 +3,8 @@ toc: true
 comments: true
 layout: post
 type: hacks
-title: APCSP JS Hacks 5
-description: Part 5 of the 5 things we had to learn for APCSP 
+title: APCSP JS Hacks 6
+description: Part 6 of the 6 things we had to learn for APCSP 
 courses: { csse: {week: 1}, csp: {week: 5, categories: [4.A]}, csa: {week: 0} }
 categories: [C1.4]
 ---

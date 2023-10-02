@@ -1,3 +1,14 @@
+---
+toc: true
+comments: true
+layout: post
+type: hacks
+title: APCSP JS Hacks 4
+description: Part 4 of the 6 things we had to learn for APCSP 
+courses: { csse: {week: 1}, csp: {week: 5, categories: [4.A]}, csa: {week: 0} }
+categories: [C1.4]
+---
+
 alphabet = "abcdefghijklmnopqrstuvwxyz"
 
 alphabetList = []
@@ -15,6 +26,8 @@ while i < 26:
     if alphabetList[i] == letter:
         print("The letter " + letter + " is the " + str(i + 1) + " letter in the alphabet")
     i += 1
+
+----------------------------------------
 
 menu =  {"burger": 3.99,
          "fries": 1.99,

@@ -4,7 +4,7 @@ comments: true
 layout: post
 type: hacks
 title: APCSP JS Hacks
-description: Part 1 of the 5 things we had to learn for APCSP 
+description: Part 1 of the 6 things we had to learn for APCSP 
 courses: { csse: {week: 1}, csp: {week: 5, categories: [4.A]}, csa: {week: 0} }
 categories: [C1.4]
 ---

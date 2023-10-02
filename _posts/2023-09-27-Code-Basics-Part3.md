@@ -1,3 +1,13 @@
+---
+toc: true
+comments: true
+layout: post
+type: hacks
+title: APCSP JS Hacks 3
+description: Part 3 of the 6 things we had to learn for APCSP 
+courses: { csse: {week: 1}, csp: {week: 5, categories: [4.A]}, csa: {week: 0} }
+categories: [C1.4]
+---
 <p id = "theResult">Hello World</p>
 <button onclick="load()">Test</button>
 <script>
