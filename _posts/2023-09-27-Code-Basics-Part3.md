@@ -1,35 +1,120 @@
----
-toc: true
-comments: true
-layout: post
-type: hacks
-title: APCSP JS Hacks 3
-description: Part 3 of the 5 things we had to learn for APCSP 
-courses: { csse: {week: 1}, csp: {week: 5, categories: [4.A]}, csa: {week: 0} }
-categories: [C1.4]
----
-
-This is running a for loop for what was suppost to be a loading simulation, now, I know from 0 - 5 the text is suppost to be 
-\/\/\/\/\/\/\/\/\/\/
-
-<p id="Load">Loading</p>
+<p id = "theResult">Hello World</p>
+<button onclick="load()">Test</button>
 <script>
-    var loadingScreen = document.getElementById("Load").innerHTML;
-    var time = new Date(); 
-    var wait = time.getTime();
-    for(x = 0; x < 10; x++){
-        if(wait + 1000000 > new Date().getTime()){
-            console.log("Starts with", loadingScreen)
-            if(loadingScreen != "Loading..."){
-                loadingScreen += ".";
-            }
-            else{
-                loadingScreen = "Loading";
-            }   
+    var steps = 0;
+    var periods = ".";
+    var data = [{
+        "x":1,
+        "y":0
+    },
+    {
+        "x":2,
+        "y":0
+    },
+    {
+        "x":3,
+        "y":0
+    },
+    {
+        "x":4,
+        "y":0
+    },
+    {
+        "x":5,
+        "y":0
+    },
+    {
+        "x":6,
+        "y":0
+    },
+    {
+        "x":7,
+        "y":0
+    },
+    {
+        "x":8,
+        "y":0
+    },
+    {
+        "x":9,
+        "y":0
+    },
+    {
+        "x":10,
+        "y":0
+    },
+    {
+        "x":11,
+        "y":0
+    },
+    {
+        "x":12,
+        "y":0
+    },
+    {
+        "x":13,
+        "y":0
+    },
+    {
+        "x":14,
+        "y":0
+    },
+    {
+        "x":15,
+        "y":0
+    },
+    {
+        "x":16,
+        "y":0
+    },
+    {
+        "x":17,
+        "y":0
+    },
+    {
+        "x":18,
+        "y":0
+    },
+    {
+        "x":19,
+        "y":0
+    },
+    {
+        "x":20,
+        "y":0
+    },
+    {
+        "x":20,
+        "y":1
+    },
+    {
+        "x":20,
+        "y":2
+    },
+    {
+        "x":20,
+        "y":3
+    },
+    {
+        "x":20,
+        "y":4
+    },
+    {
+        "x":20,
+        "y":5
+    }];
+    var result = document.getElementById("theResult")
+    function load(){
+        if(steps < data.length && data[steps]["y"] == 0){
+            result.innerHTML = "Hello World" + periods.repeat(data[steps]["x"])
+            steps += 1
         }
+        else if(steps < data.length - 0){
+            periods = "....................<br>" 
+            result.innerHTML = "Hello World" + periods.repeat(data[steps]["y"])
+            console.log(periods)
+            steps += 1
+        }
+        console.log(steps)
     }
-    document.getElementById("Load").innerHTML = loadingScreen
-    console.log("Ends with", loadingScreen)
-</script> 
-
-Found out that I had to redefine .innerHTML because for some reason it wasn't working just once.
+</script>

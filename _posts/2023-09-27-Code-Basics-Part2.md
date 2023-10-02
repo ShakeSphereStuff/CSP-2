@@ -9,12 +9,52 @@ courses: { csse: {week: 1}, csp: {week: 5, categories: [4.A]}, csa: {week: 0} }
 categories: [C1.4]
 ---
 
-<div style = "background-color:blue"> 
-    <b id = "Testing" style = "color:green; "><br><br>Hello World<br><br></b>
-</div>
-<script>
-    var theText = document.getElementById("Testing")
-    theText.innerHTML = "Hello World, how you doing?"
-</script> 
+<table>
+    <tr>
+        <td>
+<input id = "First">FirstName</input>
+<input id = "Last">LastName</input>
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <button onclick="js:addPerson();">Submit Person</button>
+            <button onclick="js:renderGreeting();">Show Grettings</button>
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <p id = "output"></p>
+        </td>
+    </tr>
+</table>
 
-- Learned that it's really hard to show javascript in action, did you even know the text was suppost to be "Hello World"?
+<script>
+var personInfo = []
+function addPerson(){
+    var firstName = document.getElementById("First").value;
+    var lastName = document.getElementById("Last").value;
+    personInfo.push({
+        "First Name" : firstName,
+        "Last Name" : lastName
+    })
+    console.log(personInfo)
+    return null
+}
+function renderGreeting(){
+    var result = document.getElementById("output")
+    var firstNames = ""
+    var greetings = [
+        "Hello",
+        "Hi",
+        "Greetings",
+        "Good day"
+    ]
+    console.log(typeof(personInfo))
+    console.log(Object.keys(personInfo).length)
+    for(x = personInfo.length - 1; x >= 0; x--){
+        firstNames += greetings[Math.floor(Math.random() * greetings.length)] + " " + personInfo[x]["First Name"] + "<br>"
+    }
+    result.innerHTML = firstNames
+}
+</script>
