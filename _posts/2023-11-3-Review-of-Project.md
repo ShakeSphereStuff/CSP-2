@@ -1,7 +1,7 @@
 ---
 toc: true
 comments: true
-layout: post
+layout: post 
 type: hacks
 title: Review of Night at the Musuem
 description: This in an overview of what I've learned for night at the musuem 
