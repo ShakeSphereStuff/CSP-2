@@ -1,3 +1,13 @@
+---
+toc: true
+comments: true
+layout: post
+type: hacks
+title: Review of Night at the Musuem
+description: This in an overview of what I've learned for night at the musuem 
+courses: { csse: {week: 1}, csp: {week: 9, categories: [4.A]}, csa: {week: 0} }
+categories: [C1.4]
+---
 What I've learned over the project:
 
 Parts of Firebase
