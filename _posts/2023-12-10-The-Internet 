@@ -1,0 +1,65 @@
+IP Addresses
+Which of the following IP Addresses are possible? Explain (yes/no) for each answer choice.
+Yes, all numbers are between 0 - 255, 1.1.1.1.1
+Yes, all numbers are between 0 - 255, 23.23.23.23
+No, 492 is not a number between 0 - 255, 134.492.100.0
+No, 492 is not a number between 0 - 255, 255.256.55.255
+Yes, all numbers are between 0 - 255, 2.93.255.19
+
+If Dian Du is at home on his home network and sends a message to every computer on the network, what is this an example of? Explain.
+
+Broadcast, it is distrabution of a single stream of data to every other device  
+
+Models
+
+Three of the four following protocols are on the same layer. Identify which ones and what layer they are on, and why they are on each layer:
+
+ASCII (see above for information)
+FTP (facilitates transfer of files over the internet)
+TLS (see HTTPS section)
+USB (permits data exchange between electronics)
+
+USB - Physical Layer, is though physical cords
+TLS - Application Layer, Communicates between server and user, user interaction
+FTP - Application Layer, interaction of user and files
+ASCII - Application Layer, interaction of user and text
+
+Telnet is a internet protocol which allows remote access to other computers over a local network or the internet. What layer of the OSI model would this protocol be located on? What is the function of this layer?
+
+DNS
+Bob wants to use the domain bob.is.the.best.com. What domain should he buy from a DNS provider (assume it is available)? What would be the subdomains?
+The subdomains would be "bob.is.the.best" and should by it from the domain ".com"
+
+HTTP and HTTPS
+What is a difference between HTTP and HTTPS?
+The difference between http and https is that http lacks securtiy and https does not
+
+What protocol does HTTPS use that HTTP doesn’t?
+HTTPS follows SSL/TLS, Security 
+
+Last trimester we sent HTTP requests for our passion projects
+Did we use HTTP or HTTPS?
+We used HTTPS with SSL security
+
+What are the benefits and disadvantages of this?
+HTTPS is longer to set up but is more secure than HTTP
+
+TCP and UDP
+Bob is setting up a video streaming service, and he needs the stream to be real time.
+What protocol should he use, TCP or UDP? Why?
+UDP, is a much faster way of streaming data fits his real time needs
+
+What are some cons of this protocol? Give an example of a potential issue.
+If Bob has this as a subscription service, hackers could gain access to the content for free
+
+TCP has error checking, which ensures that all packets arrive properly. Why is this important?
+This is important because the handshake needs for a specific order of sent messages between the 2 computers, otherwise it would break the protocal.
+
+Give an example of how TCP ensures that there are no errors.
+TCP ensures there are no errors through segmenting the bits it sends. It first sends 1/2 of the data to Server B before getting a responce back before sending the remaining 1/2 to Server B
+
+Server A computer is communicating with Server B. They have already initiated communication and Server A is now attempting to send data to Server B.
+How does Server B ensure that they have received any sent packets before Server A continues sending packets in TCP? In UDP?
+What is another use of this?
+
+Server B checks this though sending a SYN, ACK package, a use of this could be in forums, where you need to make sure that a person does exist before posting.
