@@ -1,3 +1,14 @@
+---
+toc: true
+comments: true
+layout: post
+type: hacks
+title: Legal and Ethical Concerns HW
+description: My response for the HW in the team teach
+courses: { csse: {week: 1}, csp: {week: 9, categories: [4.A]}, csa: {week: 0} }
+categories: [C1.4]
+---
+
 1. Describe the key differences between the Creative Commons Zero v1.0 Universal, Open Source MIT License, and Open Source GPL License.
 
 The Creative Commons Zero v1.0 Universal allows for everyone to use the work for commercial purposes, along with distributing, copying and modifying the work.
