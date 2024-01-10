@@ -1,4 +1,14 @@
-Computing Bias.md
+---
+toc: true
+comments: true
+layout: post
+type: hacks
+title: Computing Bias HW
+description: My response for the HW in the team teach
+courses: { csse: {week: 1}, csp: {week: 9, categories: [4.A]}, csa: {week: 0} }
+categories: [C1.4]
+---
+
 
 Is bias enhancing or intentionally excluding?
 
