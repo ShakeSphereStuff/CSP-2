@@ -34,7 +34,7 @@ I do not have access to AWS because I put in the wrong info to get access to it.
 
 Python Script:
 
-<code>
+<pre>
 import time, math
 def commonPassword(password):
     passwords = ["guest",
@@ -159,7 +159,7 @@ def checkPassword(attempts):
         
 
 checkPassword(0)
-</code>
+</pre>
 
 
 BONUS: Use online wordlists to compare the password, preventing dictionary attacks
